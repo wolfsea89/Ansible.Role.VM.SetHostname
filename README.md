@@ -1,4 +1,4 @@
-# Ansible.RoleSystem.SetHostname
+Ansible.RoleSystem.SetHostname
 =========
 
 This role sets the hostname and edits an entry in `/ etc / config`
