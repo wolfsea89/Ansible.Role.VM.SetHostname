@@ -1,0 +1,4 @@
+localhost:
+    vars:
+        inventory_fqdn: localhost.localdomain
+
