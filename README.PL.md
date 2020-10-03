@@ -1,4 +1,4 @@
-# Ansible.RoleSystem.SetHostname
+Ansible.RoleSystem.SetHostname
 =========
 
 Ta rola ustawia nazwę hostname i edytuje wpis w pliku `/etc/config`
