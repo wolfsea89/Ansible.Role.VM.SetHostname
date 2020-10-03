@@ -1,21 +1,21 @@
 Ansible.RoleSystem.SetHostname
 =========
 
-This role sets the hostname and edits an entry in `/ etc / config`
+Ta rola ustawia nazwę hostname i edytuje wpis w pliku `/etc/config`
 
-Language: [EN](README.md), [PL](README.PL.md)
+Język: [EN](README.md), [PL](README.PL.md)
 
-Role Variables
+Zmienne w roli
 --------------
 optional:
 ```
   inventory_fqdn: virtualmachine.local.net
 ```
 
-Example Playbook
+Przykładowy Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+Przykładowe użycie roli
 ```
 - hosts: localhost
   remote_user: root
@@ -27,7 +27,7 @@ Including an example of how to use your role (for instance, with variables passe
         inventory_fqdn: "{{ inventory_hostname }}.localdomain"
 ```
 
-Testing
+Testowane
 ------------
 
 Testing on:
@@ -37,12 +37,12 @@ Testing on:
   - Centos 7
   - Centos 8
 
-License
+Licencja
 -------
 
 BSD
 
-Author Information
+Autor
 ------------------
  **Maciej Rachuna**
 ##### System Administrator & DevOps Engineer
